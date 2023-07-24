@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  /*
+  * Created with https://www.css-gradient.com
+  * Gradient link: https://www.css-gradient.com/?c1=49a3c7&c2=e6ddee&gt=r&gd=dtr
+  */
+  background: rgba(73, 163, 199, 1.0);
+  background: radial-gradient(at right top, rgba(73, 163, 199, 1.0), rgba(230, 221, 238, 1.0));
+  top:0;
+  height:900px;
+  position:fixed;
+  width:1700px;
+
+
 }
 
 .App-logo {
@@ -36,3 +48,4 @@
     transform: rotate(360deg);
   }
 }
+
