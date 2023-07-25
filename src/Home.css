@@ -1,15 +1,47 @@
 .Home{
-    text-align: center;
+    /* text-align: center; */
   /*
   * Created with https://www.css-gradient.com
   * Gradient link: https://www.css-gradient.com/?c1=49a3c7&c2=e6ddee&gt=r&gd=dtr
   */
-  background: rgba(73, 163, 199, 1.0);
+  background: rgb(101, 173, 201);
   background: radial-gradient(at right top, rgba(73, 163, 199, 1.0), rgba(230, 221, 238, 1.0));
   top:0;
   height:900px;
   position:fixed;
   width:1700px;
+
+}
+.navbar-brand
+{
+  font-size:30px;
+  margin-left:90px;
+  margin-top:40px;
+}
+.navbar-center{
+  text-align:center;
+  align-items: center;
+  margin-top:-180px;
+  
+}
+.searchBox{
+  width:250px;
+  height:35px;
+  border:transparent;
+  border-radius:30px;
+  padding-left: 20px;
+}
+
+.bi-search{
+  margin-left:-35px;
+  position :relative;
+  
+  border-radius:30px;
+  padding:5px 5px;
+  top:8.5px;
+  background: rgb(91, 170, 201);
+}
+.bi-search:hover{
 
 }
 
