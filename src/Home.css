@@ -17,11 +17,13 @@
   font-size:30px;
   margin-left:90px;
   margin-top:40px;
+  font-family:cursive;
+  font-size: 50px;
 }
 .navbar-center{
   text-align:center;
   align-items: center;
-  margin-top:-180px;
+  margin-top:-210px;
   
 }
 .searchBox{
@@ -36,13 +38,17 @@
   margin-left:-35px;
   position :relative;
   
+  /* border-radius:30px; */
+  padding:5px 5px;
+  top:8.5px;
+  /* background: rgb(91, 170, 201); */
+}
+.bi-search:hover{
   border-radius:30px;
   padding:5px 5px;
   top:8.5px;
-  background: rgb(91, 170, 201);
-}
-.bi-search:hover{
-
+  background: rgb(119, 200, 232);
+  transform:translate(3px,1px);
 }
 
 
