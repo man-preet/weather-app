@@ -59,6 +59,7 @@ const Home = () => {
                 <div className="glassBox1">
 
                   <h3 className="cityName"> city name and date and time according to IST</h3>
+                  {/* <h3 className="riseSet"> Sunrise and Sunset</h3> */}
                   <h1 className="temp"> Temperature </h1>
                   <h1 className="humidity">Humidity</h1>
                   <h3 className="day-night">Day Temperature  Night Temperature</h3>
@@ -75,6 +76,16 @@ const Home = () => {
                     <hr/>
                     <h1 className="vis">Visibility</h1>
 
+                    <h1 className="airQualityIndex">Air Quality Index</h1>
+                    <hr className="hr1"/>
+                    <h1 className="dewPoint">Dew Point</h1>
+                    <hr className="hr2"/>
+                    <h1 className="UV">UV Index</h1>
+                    <hr className="hr3"/>
+
+                    <h1 className="sunRise">☀️</h1>
+                    <div className="vl"></div>
+                    <h1 className="sunSet">🌤️</h1>
 
 
                 </div>

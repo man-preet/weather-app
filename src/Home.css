@@ -66,7 +66,7 @@
     justify-content: center;
     align-items: center;
 }
-.cityName{
+.cityName {
   padding-left:29px;
   padding-top: 10px;
   height:30px;
@@ -84,7 +84,7 @@
   font-size:20px;
   padding-left: 29px;
 }
-.weather{
+.weather,.airQualityIndex, .dewPoint, .UV, .sunRise, .sunSet{
    font-size: 20px;
    text-align: right;
    top:-130px;
@@ -103,6 +103,44 @@ hr{
     width:30%;
     margin-left: 20px;
 }
+.hr1, .hr2,.hr3{
+    width:30%;
+    margin-left:1040px;
+    margin-top:-235px;
+}
+.airQualityIndex,.dewPoint, .UV{
+    top:-230px;
+    font-size:25px;
+    padding-right: 290px;
+}
+.dewPoint,.UV, .sunRise,.sunSet{
+   top:0px;
+   padding-right:405px;
+    
+}
+.UV{
+    padding-right: 415px;
+}
+.hr2,.hr3{
+    margin-top:0px;
+}
+ .sunRise,.sunSet{
+    padding-right:500px;
+    font-size: 30px;
+    top:-10px;
+ }
+ .sunSet{
+    padding-right: 250px;
+    top:-65px;
+ }
+.vl{
+    border:0.5px solid grey;
+    height: 50px;
+    position:absolute;
+    margin-left:1300px;
+    top:205px;
+}
+
 
 h1 {
     font-size: 80px;
