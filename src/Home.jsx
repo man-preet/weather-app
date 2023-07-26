@@ -58,11 +58,24 @@ const Home = () => {
 
                 <div className="glassBox1">
 
-                  <h3 className="cityName"> city name and time according to IST</h3>
+                  <h3 className="cityName"> city name and date and time according to IST</h3>
                   <h1 className="temp"> Temperature </h1>
                   <h1 className="humidity">Humidity</h1>
                   <h3 className="day-night">Day Temperature  Night Temperature</h3>
                   <h3 className="weather">How's Weather</h3>
+
+                </div>
+
+                <div className="glassBox2">
+                    <h1 className="precipitation">Precipitation</h1>
+                    <hr/>
+                    <h1 className="wind">Wind</h1>
+                    <hr/>
+                    <h1 className="pressure">Pressure</h1>
+                    <hr/>
+                    <h1 className="vis">Visibility</h1>
+
+
 
                 </div>
 

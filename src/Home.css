@@ -51,7 +51,7 @@
     transition: 0.3s ease-in-out;
 }
 
-.glassBox1 {
+.glassBox1 , .glassBox2{
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.13);
     border-radius: 16px;
@@ -75,7 +75,7 @@
   border-radius: 16px 16px 0px 0px;
 }
 
-.temp,.humidity{
+.temp,.humidity, .precipitation,.wind,.pressure,.vis{
   font-size: 40px;
   padding-left:29px;
 
@@ -92,7 +92,17 @@
    position: relative;
 }
 
+.glassBox2{
+     margin-top: 50px;
 
+}
+.precipitation,.wind, .pressure,.vis{
+    font-size: 25px;
+}
+hr{
+    width:30%;
+    margin-left: 20px;
+}
 
 h1 {
     font-size: 80px;
