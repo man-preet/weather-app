@@ -18,14 +18,14 @@
 .navbar-brand {
     font-size: 30px;
     margin-left: 90px;
-    margin-top: 40px;
+    margin-top: 30px;
     font-family: cursive;
     font-size: 50px;
 }
 .navbar-center {
     text-align: center;
     align-items: center;
-    margin-top: -210px;
+    margin-top: -215px;
 }
 .searchBox {
     width: 250px;
@@ -51,7 +51,7 @@
     transition: 0.3s ease-in-out;
 }
 
-.glassBox1 , .glassBox2{
+.glassBox1 , .glassBox2, .glassBox3{
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.13);
     border-radius: 16px;
@@ -61,7 +61,7 @@
     border: 1px solid rgba(255, 255, 255, 0.18);
     width: 95%;
     height: 30%;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left:30px;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,7 @@
   border-radius: 16px 16px 0px 0px;
 }
 
-.temp,.humidity, .precipitation,.wind,.pressure,.vis{
+.temp,.humidity, .precipitation,.wind,.pressure,.vis,.forecast{
   font-size: 40px;
   padding-left:29px;
 
@@ -93,10 +93,10 @@
 }
 
 .glassBox2{
-     margin-top: 50px;
+     margin-top: 30px;
 
 }
-.precipitation,.wind, .pressure,.vis{
+.precipitation,.wind, .pressure,.vis,.forecast{
     font-size: 25px;
 }
 hr{
@@ -140,6 +140,17 @@ hr{
     margin-left:1300px;
     top:205px;
 }
+.glassBox3{
+    margin-top:30px;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: 25px 25px 25px 25px;
+    justify-content:space-around;
+    font-size: 20px;
+}
+
 
 
 h1 {
