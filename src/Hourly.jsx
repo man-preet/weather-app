@@ -89,7 +89,7 @@ const Hourly = () => {
                     Hourly Weather<em>-place</em>
                 </h2>
                 <p> As of Time according to IST </p>
-                <hr />
+                <hr className ="hour"/>
                 <ul>
                     {conditions.map((item, index) => (
                         <ul className="data" key={index}>
@@ -116,6 +116,7 @@ const Hourly = () => {
                                     <p>{item.UVindex}</p>
                             
                                 </div>
+                              
                             </div>
 
                             {/* <hr/> */}
