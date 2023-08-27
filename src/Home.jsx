@@ -112,6 +112,8 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
+                <br/>
+                <br/>
 
                 {/* <div className="glassBox">
 

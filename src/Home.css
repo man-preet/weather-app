@@ -11,9 +11,10 @@
         rgba(230, 221, 238, 1)
     );
     top: 0;
-    height: 900px;
-    position: fixed;
-    width: 1700px;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    overflow: scroll;
 }
 .navbar-brand {
     font-size: 30px;
@@ -30,7 +31,7 @@
 .searchBox {
     width: 250px;
     height: 35px;
-    border: transparent;
+    border: none;
     border-radius: 30px;
     padding-left: 20px;
     outline: none;
